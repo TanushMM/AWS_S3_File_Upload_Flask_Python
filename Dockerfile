@@ -6,8 +6,8 @@ COPY . .
 
 RUN pip install --no-cache-dir -r requirements.txt
 
-WORKDIR ./application
+WORKDIR /application/
 
 EXPOSE 5000 
 
-CMD python3 app.py
+CMD ["python3", "app.py"]
