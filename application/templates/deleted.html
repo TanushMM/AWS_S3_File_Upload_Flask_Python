@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AWS S3 Testing using Python</title>
+    <style>
+        body {
+            background-color: #1a1a2e; 
+            color: #eaeaea; 
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            color: #e0e1dd; 
+        }
+
+        form {
+            background-color: #16213e; 
+            padding: 20px 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+        }
+
+        input[type="file"] {
+            margin-bottom: 15px;
+            padding: 10px;
+            background-color: #0f3460; 
+            border: none;
+            color: #eaeaea;
+            border-radius: 5px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            background-color: #0f3460; 
+            border: none;
+            padding: 10px 20px;
+            color: #eaeaea;
+            font-size: 1em;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            width: 100%;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #533483;
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2em;
+            }
+
+            form {
+                width: 90%;
+                padding: 15px;
+            }
+
+            input[type="submit"] {
+                font-size: 0.9em;
+            }
+        }
+        .main-div {
+            justify-items: center;
+            justify-content: center;
+            text-align: center;
+            width: 40%;
+        }
+        a {
+            color: #00ffff; 
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: #ffff00;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-div">
+        <h2>File deleted successfully</h2>
+        <p><a href="{{ url_for('main') }}">Return to home</a></p>
+    </div>
+</body>
+</html>
