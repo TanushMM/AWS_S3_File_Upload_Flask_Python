@@ -11,14 +11,14 @@ This project is a simple web application built with Flask that allows users to u
 - **Dockerization:** The application can be Dockerized for easy deployment and scalability.
 
 ## Project Structure
-├── application
-│   ├── app.py
-│   └── templates
-│       ├── deleted.html
-│       ├── index.html
-│       └── uploaded.html
-├── Dockerfile
-├── README.md
+├── application <br>
+│   ├── app.py <br>
+│   └── templates <br>
+│       ├── deleted.html <br>
+│       ├── index.html <br>
+│       └── uploaded.html <br>
+├── Dockerfile <br>
+├── README.md <br>
 └── requirements.txt
 
 ## Content structure of **.env** file
