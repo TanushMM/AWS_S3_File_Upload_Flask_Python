@@ -12,11 +12,11 @@ This project is a simple web application built with Flask that allows users to u
 
 ## Project Structure
 ├── application <br>
-│   ├── app.py <br>
-│   └── templates <br>
-│       ├── deleted.html <br>
-│       ├── index.html <br>
-│       └── uploaded.html <br>
+│&emsp;├── app.py <br>
+│&emsp;└── templates <br>
+│&emsp;&emsp;├── deleted.html <br>
+│&emsp;&emsp;├── index.html <br>
+│&emsp;&emsp;└── uploaded.html <br>
 ├── Dockerfile <br>
 ├── README.md <br>
 └── requirements.txt
